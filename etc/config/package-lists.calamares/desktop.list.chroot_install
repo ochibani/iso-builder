@@ -1,0 +1,12 @@
+kicksecure-xfce
+python3-pyqt5
+tb-starter
+tb-updater
+tb-default-browser
+libdbus-glib-1-2
+cryptsetup
+cryptsetup-run
+cryptsetup-initramfs
+libblockdev-crypto2
+network-manager-gnome
+pavucontrol

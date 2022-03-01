@@ -1,0 +1,4 @@
+#!/bin/sh
+# Description: Modify chroot
+# Disable sdwdata
+systemctl disable sdwdate
