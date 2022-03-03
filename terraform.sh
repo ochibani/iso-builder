@@ -34,7 +34,7 @@ check_permissions () {
 
 
 check_dependencies () {
-    PACKAGES="live-build binutils zstd tor mmdebstrap debian-keyring"
+    PACKAGES="live-build binutils zstd tor debootstrap debian-keyring"
     for PACKAGE in $PACKAGES; do
         dpkg -L "$PACKAGE" >/dev/null 2>&1 || MISSING_PACKAGES="$MISSING_PACKAGES $PACKAGE"
     done
