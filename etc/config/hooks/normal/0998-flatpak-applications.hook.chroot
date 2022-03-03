@@ -1,0 +1,15 @@
+# Add flatpak applications
+
+# Add flatpak repo
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+
+# Add Adwaita theme
+flatpak install flathub org.kde.KStyle.Adwaita -y
+flatpak install flathub org.kde.PlatformTheme.QGnomePlatform -y
+flatpak install flathub org.gtk.Gtk3theme.Adwaita-dark -y
+
+# Install default flatpak applications
+flatpak install com.github.tchx84.Flatseal -y
+flatpak install com.bitwarden.desktop -y
+flatpak install org.standardnotes.standardnotes -y

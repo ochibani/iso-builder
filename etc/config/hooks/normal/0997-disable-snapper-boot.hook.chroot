@@ -1,0 +1,4 @@
+# Disable snapper at boot
+systemctl disable snapper-boot.timer
+systemctl disable snapper-cleanup.timer
+systemctl disable snapper-timeline.timer

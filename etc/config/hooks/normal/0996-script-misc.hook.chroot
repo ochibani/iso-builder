@@ -1,0 +1,11 @@
+#!/bin/sh
+# Description: Modify chroot
+
+# Remove gnome-online-accounts
+rm /usr/share/applications/gnome-online-accounts-panel.desktop
+
+# Set plymouth theme
+plymouth-set-default-theme -R spinner_alt
+
+# Disable sdwdata
+systemctl disable sdwdate

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Systemd Report
+GenericName=Check systemd units status
+Exec=systemd-error-report-notify.sh
+TryExec=systemd-error-report-notify.sh
+Icon=terminal
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+Categories=Utility;Security;
